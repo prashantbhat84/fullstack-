@@ -1,0 +1,14 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "Full stack app development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Prashant Bhat",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}

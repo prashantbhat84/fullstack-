@@ -2,17 +2,19 @@
   "name": "fullstack",
   "version": "1.0.0",
   "description": "Full stack app development",
-		"main": "index.js",
-		"engines":{
-			"node":"8.11.3",
-			"npm":"6.7.0"
-		},
+  "main": "index.js",
+  "engines": {
+    "node": "8.11.3",
+    "npm": "6.7.0"
+  },
   "scripts": {
-				"start": "node index.js"
+    "start": "node index.js"
   },
   "author": "Prashant Bhat",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "passport": "^0.4.0",
+    "passport-google-oauth20": "^2.0.0"
   }
 }
